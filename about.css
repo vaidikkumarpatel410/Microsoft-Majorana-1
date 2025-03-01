@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    background:rgba(201, 197, 197,0.3);
+    height:5rem;
+    display:flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom:1.3rem;
+}
+#anchor_continer{
+    display:flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+#logo{
+    height:1.3rem;
+    padding-left:10rem;
+    padding-right:5rem;
+}
+.anchor{
+    text-decoration: none;
+    color:#666666;
+    font-size:1.1rem;
+    margin:1.7rem;
+}
+
+#search{
+    margin-left:10rem;
+}
+input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding:0.5rem;
+    height:2rem;
+    width:13rem; 
+    outline: none;
+    font-size:1rem;
+    color:#666666;
+}
+  
+button{
+    all:unset;
+    margin-left:0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.content {
+    margin-top:3rem;
+    text-align: justify; /* Makes paragraphs evenly spaced */
+    max-width: 800px; 
+    padding: 20px; /* Adds some spacing inside the box */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    background: white; /* Ensures background color */
+}
+
+.content p {
+    text-indent: 30px; /* Adds indentation to first line of each paragraph */
+}
+
+
+.fotter_container{
+    background-color: rgba(201, 197, 197,0.3);
+    display:flex;
+    padding-top:2rem;
+    margin-top:4rem;
+    justify-content: space-evenly;
+}
+.anchornew{
+    text-decoration: none;
+    color:black;
+    margin:3rem;
+}
+.list{
+    list-style: none;
+    color:#666666;
+    font-size:0.7rem;
+    padding:1rem;
+}
+
+.copyright{
+    background-color: rgba(201, 197, 197,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}

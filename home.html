@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html"><img id="logo" src="logo.png" alt="#"></a>
+        <div id="anchor-container">
+            <a href="home.html" class="anchor">Home</a>
+            <a href="about.html" class="anchor">Learn</a>
+            <a href="gallery.html" class="anchor">Gallery</a>
+            <a href="contact" class="anchor">Contact</a>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <button id="playButton">Click to Play Video</button>
+    </div>
+
+    <video id="myVideo"muted>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        document.getElementById("playButton").addEventListener("click", function () {
+            var video = document.getElementById("myVideo");
+            video.muted = false; // Unmute the video
+            video.play(); // Play the video
+            this.style.display = "none"; // Hide the button after clicking
+        });
+    </script>
+
+    <footer>
+        <div class="fotter_container">
+            <div class="new">
+                <a href="#" class="anchornew anew">What's New</a>
+                <ul>
+                    <li class="list">Surface Pro</li>
+                    <li class="list">Surface Laptop</li>
+                    <li class="list">Surface Laptop Studio 2 </li>
+                    <li class="list">Surface Laptop Go 3</li>
+                    <li class="list">Microsoft Copilot</li>
+                    <li class="list">AI in Windows</li>
+                    <li class="list">Explore Microsoft Products</li>
+                    <li class="list">Windows 11 apps</li>
+                </ul>
+            </div>
+
+            <div class="store">
+                <a href="#" class="anchornew">Microsoft Store</a>
+                <ul>
+                    <li class="list">Account Profile</li>
+                    <li class="list">Download Center</li>
+                    <li class="list">Microsoft Store Support</li>
+                    <li class="list">Returns</li>
+                    <li class="list">Order Tracking</li>
+                    <li class="list">Certified Refurbished</li>
+                    <li class="list">Micrsoft Store Promise</li>
+                    <li class="list">Flexible Payments</li>
+                </ul>
+            </div>
+
+            <div class="edu">
+                <a href="#" class="anchornew">Education</a>
+                <ul>
+                    <li class="list">Microsoft in Education</li>
+                    <li class="list">Device for Education</li>
+                    <li class="list">Microsoft Teams for Education</li>
+                    <li class="list">Microsoft 365 fro Education</li>
+                    <li class="list">How to buy for your School</li>
+                    <li class="list">Educator traning and evelopment</li>
+                    <li class="list">Deals for student and parents</li>
+                    <li class="list">Azure for students</li>
+                </ul>
+            </div>
+
+            <div class="bus">
+                <a href="#" class="anchornew">Bussiness</a>
+                <ul>
+                    <li class="list">Microsoft Cloud</li>
+                    <li class="list">Microsoft Security</li>
+                    <li class="list">Dynamic 365</li>
+                    <li class="list">Microsoft 365</li>
+                    <li class="list">Microsoft Power PLatform</li>
+                    <li class="list">Microsoft Teams</li>
+                    <li class="list">Microsoft 365 Office</li>
+                    <li class="list">Small Bussiness</li>
+                </ul>
+            </div>
+
+            <div class="devit">
+                <a href="#" class="anchornew">Developers & IT</a>
+                <ul>
+                    <li class="list">Azure</li>
+                    <li class="list">Microsoft Developer</li>
+                    <li class="list">Documentation</li>
+                    <li class="list">Microsoft Learn</li>
+                    <li class="list">Microsoft Tech Community</li>
+                    <li class="list">Azure Marketplace</li>
+                    <li class="list">AppSource</li>
+                    <li class="list">Visual Studio</li>
+                </ul>
+            </div>
+
+            <div class="com">
+                <a href="#" class="anchornew">Company</a>
+                <ul>
+                    <li class="list">Carrers</li>
+                    <li class="list">About Microsoft</li>
+                    <li class="list">Company News</li>
+                    <li class="list">Privacy at Microsoft</li>
+                    <li class="list">Investors</li>
+                    <li class="list">Diversity and inclusion</li>
+                    <li class="list">Accessibility</li>
+                    <li class="list">Sustainability</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Microsoft 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
