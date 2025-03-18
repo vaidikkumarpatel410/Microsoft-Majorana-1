@@ -1,8 +1,11 @@
-🌌 Microsoft Quantum Computing Website
+🌌 Microsoft Quantum Computing Website (Clone)
 
 🔍 Overview
 
 Welcome to the Microsoft Quantum Computing website! This platform showcases Microsoft's Majorana 1 quantum chip 🧑‍🔬, a revolutionary step in computing. Explore the cutting-edge technology behind quantum breakthroughs! ⚡
+
+Live Demo: https://vaidikkumarpatel410.github.io/Microsoft-Majorana-1/
+
 
 ✨ Features
 
